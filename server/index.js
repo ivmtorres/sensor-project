@@ -2,11 +2,11 @@ const express = require('express');
 const app = express();
 
 app.get('/temperature',function(req,res){
-	res.send('24°C');
+	res.send('48°C');
 });
 
 app.get('/humidity',function(req,res){
-	res.send('58%');
+	res.send('18%');
 });
 
 app.listen(3000,function(){
