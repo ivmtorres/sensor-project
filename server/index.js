@@ -20,8 +20,7 @@ getCachedSensorReadings.getTemperature().toFixed(1) +
 })
 
 app.get('/humidity', function (req, res) {
-  res.send('<strong>'+getCachedSensorReadings.getHumidity
-().toFixed(1) + '</strong>'+'%')
+  res.send('<strong>'+getCachedSensorReadings.getHumidity().toFixed(1) + '</strong>'+'%')
 })
 
 app.listen(3000, function () {
